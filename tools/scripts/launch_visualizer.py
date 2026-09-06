@@ -4,7 +4,7 @@ import sys
 import os
 
 def run_python_visualizer(source, target, env):
-    print("\n--- Firmware Upload Successful! Launching 3D Python Visualizer ---")
+    print("\n--- Firmware Upload Successful! Launching Python Visualizer ---")
     
     # Path to your visualizer script relative to the project root
     visualizer_path = os.path.abspath(os.path.join(env.get("PROJECT_DIR"), "tools", "visualizer.py"))

@@ -14,17 +14,17 @@ IMU_Guide/
 ├── .vscode/
 ├── components/
 │   ├── app/
-│   │   ├── Include/
-│   │   └── Scr/
+│   │   ├── include/
+│   │   └── scr/
 │   ├── hal/
-│   │   ├── Include/
-│   │   └── Scr/
+│   │   ├── include/
+│   │   └── scr/
 │   ├── mcal/                 # Optional / Out of scope (low-level silicon register drivers)
-│   │   ├── Include/
-│   │   └── Scr/
+│   │   ├── include/
+│   │   └── scr/
 │   └── middleware/
-│       ├── Include/
-│       └── Scr/
+│   │   ├── include/
+│   │   └── scr/
 ├── main/
 │   └── main.c
 ├── tools/
